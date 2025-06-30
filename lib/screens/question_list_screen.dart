@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controller/question_controller.dart';
-import '../model/question.dart';
 
 class QuestionListPage extends StatelessWidget {
   final qController = Get.find<QuestionController>();
